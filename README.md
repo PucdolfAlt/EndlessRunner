@@ -1,17 +1,19 @@
+> ℹ️ **Uwaga:** To repozytorium zostało zaimportowane (`fetch`) z innego konta GitHub.  
+> Oryginalny projekt znajduje się pod innym adresem
+
 ## 🧖 Dino Rush – Endless Runner in C++ with Raylib
 
-**Dino Rush** to dynamiczna gra typu **Endless Runner**, w której wcielasz się w dinozaura uciekającego przez losowo generowane, pełne przeszkód światy. Projekt został zrealizowany jako część kursu *Programowanie Komputerów* na Politechnice Śląskiej.
+**Dino Rush** to dynamiczna gra typu **Endless Runner**, w której wcielasz się w dinozaura uciekającego przez losowo generowane, pełne przeszkód światy. Projekt został zrealizowany jako część kursu _Programowanie Komputerów_ na Politechnice Śląskiej.
 
 ---
 
 ### 🎮 Gameplay
 
-* Cztery różne światy: pustynia (dzień/noc), las (dzień/noc)
-* Animowane przeszkody: kaktusy, pnie, nietoperze, pterodaktyle
-* Prosta, intuicyjna rozgrywka
-* Możliwość personalizacji postaci przez sklep
-* System logowania i rejestracji użytkownika
-
+- Cztery różne światy: pustynia (dzień/noc), las (dzień/noc)
+- Animowane przeszkody: kaktusy, pnie, nietoperze, pterodaktyle
+- Prosta, intuicyjna rozgrywka
+- Możliwość personalizacji postaci przez sklep
+- System logowania i rejestracji użytkownika
 
 <table>
   <tr>
@@ -49,22 +51,22 @@ Gracze mogą wybrać jednego z wielu dinozaurow, którymi będą grać.
 
 Projekt został napisany w C++ z użyciem biblioteki **Raylib** i C++20 Modules. Główne moduły:
 
-* `AnimatedSpriteModule` – obsługa animowanych sprite’ów
-* `BoardModule` – główna logika gry
-* `ObstacleFactoryModule` – dynamiczne generowanie przeszkód
-* `AuthModule` – logowanie, rejestracja z plikiem `users.txt`
-* `ShopModule` – wybór postaci
-* `ControllerModule` – sterowanie stanem gry i tłem
-* `ResourcesModule` – zarządzanie teksturami i zasobami
+- `AnimatedSpriteModule` – obsługa animowanych sprite’ów
+- `BoardModule` – główna logika gry
+- `ObstacleFactoryModule` – dynamiczne generowanie przeszkód
+- `AuthModule` – logowanie, rejestracja z plikiem `users.txt`
+- `ShopModule` – wybór postaci
+- `ControllerModule` – sterowanie stanem gry i tłem
+- `ResourcesModule` – zarządzanie teksturami i zasobami
 
 ---
 
 ### 🛠️ Wymagania
 
-* C++20 (moduły)
-* [Raylib](https://www.raylib.com/)
-* System: Windows/Linux
-* Kompilator obsługujący `std::module` (np. MSVC 2022+, GCC 13+, Clang 16+)
+- C++20 (moduły)
+- [Raylib](https://www.raylib.com/)
+- System: Windows/Linux
+- Kompilator obsługujący `std::module` (np. MSVC 2022+, GCC 13+, Clang 16+)
 
 ---
 
@@ -77,6 +79,7 @@ Ten projekt nie zawiera gotowego pliku wykonywalnego. Aby uruchomić grę, wykon
    ```bash
    git clone https://github.com/Pucdolf/EndlessRunner.git
    ```
+
 2. Otwórz projekt w IDE obsługującym C++20 Modules, np. Visual Studio 2022 lub nowszym.
 3. Upewnij się, że masz zainstalowaną i skonfigurowaną bibliotekę Raylib.
 4. W IDE wybierz konfigurację `Debug` lub `Release` i skompiluj rozwiązanie (Build Solution).
@@ -86,16 +89,15 @@ Ten projekt nie zawiera gotowego pliku wykonywalnego. Aby uruchomić grę, wykon
 
 ### 📁 Pliki użytkownika
 
-* `users.txt` – zapisane konta (login + hash hasła)
-* `scores.txt` – historia wyników
+- `users.txt` – zapisane konta (login + hash hasła)
+- `scores.txt` – historia wyników
 
 ---
 
 ### 🎓 Projekt studencki
 
-Zrealizowano w ramach kursu *Programowanie Komputerów*
+Zrealizowano w ramach kursu _Programowanie Komputerów_
 Politechnika Śląska, kierunek: Informatyka
 Semestr 4, 2024/2025
 
 ---
-
