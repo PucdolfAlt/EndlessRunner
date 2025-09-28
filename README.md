@@ -1,5 +1,5 @@
 > ℹ️ **Uwaga:** To repozytorium zostało zaimportowane (`fetch`) z innego konta GitHub.  
-> Oryginalny projekt znajduje się pod innym adresem
+> Oryginalny projekt znajduje się pod innym adresem. Autorem jest Pucdolf.
 
 ## 🧖 Dino Rush – Endless Runner in C++ with Raylib
 
